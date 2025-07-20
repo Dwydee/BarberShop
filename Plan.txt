@@ -1,0 +1,23 @@
+• Front-end
+
+Pages: NavBar, Footer, Home, About Us, Pages(Name it "More" it'll be better), Our Services, Book an appointment(remove the "Make an appointment" in "Pages" on navbar, its the same), reviews/comments, login/register.
+
+Repeatable(you can make it as a component): Super Professional Barbers, We provide premium class services, Working Hours, Our Pricing, We provide premium class services.
+ 
+Addictional animations & smth: loading screen, for "We provide premium class services" u can make some animation, for Pages(Name it "More" it'll be better) u can make an scroll down aniamtion, for carousel add some text, don't forget tap on image.
+
+Media querrys extra work: 
+
+	Notebook :Services, We provide premium class services (Only one button is stickyied), Contact us: Get In 	Touch (make photo little bit more left).
+
+	Tablet: Our Pricing (make prices at the same column),Our barbershop stories (The yellow div is not on the 	same level), Working Hours is very bad designed, footer (make Location at the same row as logo), Our Story 	(years are not on the same level), We provide premium class services (buttons very bad designed).
+
+	phone landscape: burger menu, Our barbershop stories (bad carousel, back arrow doesn't work as it needs), 	Working Hours (very bad design), Our Story (no carousel), We provide premium class services (bad buttons).
+
+	phone: Our barbershop stories (bad carousel, back arrow doesn't work as it needs), Working Hours (very bad 	design),  Our Story (no carousel), We provide premium class services (bad buttons).
+
+
+• Back-end
+
+API, JWT, Booking (if booked disable booking), if logined and contacted (Get In Touch) disable it, reviews and comments also for each barber.
+
