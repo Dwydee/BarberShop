@@ -1,0 +1,71 @@
+.first-section{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/Homepagebarber.jpg);;
+  background-position: 50%;
+  min-height: 100vh;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  color: white;
+}
+
+.text{
+  max-width: 55vw;
+  padding: 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+
+.second-section{
+  padding: 10vh 12vw 5vh 12vw;
+}
+
+.second-section p{
+  width: 44vw;
+  padding: 0 0 8vh 0 ;
+}
+
+.second-section-photos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-section-first-photo{
+  background-image: url(/assets/imgs/hipster-style-bearded-man.jpg);
+  background-position: 50% 14.94%;
+  min-width: 36.5vw;
+  min-height: 38vh;
+}
+
+.second-section-second-photo{
+  background-image: url(/assets/imgs/man-cuts-his-beard-barbershop.jpg);
+  background-position: 40%;
+  background-size: cover;
+  min-width: 36.5vw;
+  min-height: 38vh;
+}
+
+.third-section{
+  background-color: #2e2d2d;
+  color: white;
+  padding: 10vh 12vw 5vh 12vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third-section-text{
+  max-width: 35.4vw;
+}
+
+.third-section-img{
+  background-image: url(/assets/imgs/serious-man-while-shaving-him.jpg);
+  background-position: 40%;
+  background-size: cover;
+  min-width: 36.5vw;
+  min-height: 59vh;
+}

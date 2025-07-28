@@ -1,1 +1,156 @@
-/* You can add global styles to this file, and also import other style files */
+//  Colors
+
+.fff{
+  color: #ffffff;
+}
+
+// Fonts
+
+* {
+  font-family: 'NotoSans-medium', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'NotoSans-light';
+  src: url('/assets/fonts/NotoSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'NotoSans-medium';
+  src: url('/assets/fonts/NotoSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'NotoSans-lightitalic';
+  src: url('/assets/fonts/NotoSans-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'NotoSans-bold';
+  src: url('/assets/fonts/NotoSans-ExtraBold.ttf');
+}
+
+.light-text {
+  font-family: 'NotoSans-light', sans-serif;
+}
+
+.extrabold-text {
+  font-family: 'NotoSans-bold', sans-serif;
+}
+
+.lightitalic-text {
+  font-family: 'NotoSans-lightitalic', sans-serif;
+}
+
+.h1{
+  font-family: 'NotoSans-bold', sans-serif;
+  font-size: 7em;
+  text-transform: uppercase;
+  padding: 2vh 0;
+}
+
+.h2{
+  font-family: 'NotoSans-bold', sans-serif;
+  font-size: 3em;
+}
+
+.h3{
+  font-family: 'NotoSans-light', sans-serif;
+  font-size: 2em;
+  padding: 1vh 0 2vh 0 ;
+}
+
+.p-text{
+  font-size: 1.2em;
+  padding: 2vh 0 4vh;
+  width: 18vw;
+}
+
+.phone-number{
+  cursor: pointer;
+  color: #b8a269;
+  font-family: 'NotoSans-bold', sans-serif;
+  font-size: 1.2em;
+}
+
+.phone-number:hover{
+  color: #7e6f4b;
+}
+
+.to-uppercase{
+  text-transform: uppercase;
+}
+// Buttons
+
+.bookbtn{
+  cursor: pointer;
+  background-color: #b8a269;
+  color: white;
+  max-width: 50vw;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+  border: none;
+}
+
+.big-bookbtn{
+  cursor: pointer;
+  background-color: #b8a269;
+  color: white;
+  max-width: 50vw;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+  border: none;
+  text-transform: uppercase;
+}
+
+.bookbtn:hover{
+  background-color: #7e6f4b;
+}
+
+.big-bookbtn:hover{
+  background-color: #ffffff;
+  color: #b8a269;
+}
+
+// Decorations
+
+.line{
+  background-color: #b8a269;
+  height: 2px;
+  width: 108px;
+}
+
+.padddown2{
+  padding: 0 0 2vh 0;
+}
+
+.paddup3{
+  padding: 3vh 0 0 0;
+}
+
+.padddown3{
+  padding: 0 0 3vh 0;
+}
+
+.paddup5{
+  padding: 5vh 0 0 0;
+}
+
+.padddown5{
+  padding: 0 0 5vh 0;
+}
+
+
+
+
+
+body{
+  background-color: #1a1a1a;
+}

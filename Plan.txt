@@ -1,6 +1,6 @@
 • Front-end
 
-Pages: NavBar, Footer, Home, About Us, Pages(Name it "More" it'll be better), Our Services, Book an appointment(remove the "Make an appointment" in "Pages" on navbar, its the same), reviews/comments, login/register.
+Pages: NavBar, Footer, Home, About Us, More, Our Services, Book an appointment(remove the "Make an appointment" in "Pages" on navbar, its the same), reviews/comments, login/register.
 
 Repeatable(you can make it as a component): Super Professional Barbers, We provide premium class services, Working Hours, Our Pricing, We provide premium class services.
  
