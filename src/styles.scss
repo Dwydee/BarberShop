@@ -114,12 +114,30 @@
   text-transform: uppercase;
 }
 
+.white-bookbtn{
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  max-width: 50vw;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'NotoSans-light', sans-serif;
+  border: 2px solid white;
+  text-transform: uppercase;
+}
+
 .bookbtn:hover{
   background-color: #7e6f4b;
 }
 
 .big-bookbtn:hover{
   background-color: #ffffff;
+  color: #b8a269;
+}
+
+.white-bookbtn:hover{
+  background-color: #fff;
   color: #b8a269;
 }
 
@@ -168,3 +186,7 @@
 body{
   background-color: #1a1a1a;
 }
+
+
+// swiper styles
+@import "~swiper/swiper-bundle.min.css";

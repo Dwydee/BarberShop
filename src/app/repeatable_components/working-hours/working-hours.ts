@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './working-hours.scss'
 })
 export class WorkingHours {
+  
 
 }

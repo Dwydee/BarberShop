@@ -1,3 +1,6 @@
+inspired: https://nicepage.com/website-design/preview/premium-barbershop-services-6445623?device=desktop
+
+
 • Front-end
 
 Pages: NavBar, Footer, Home, About Us, More, Our Services, Book an appointment(remove the "Make an appointment" in "Pages" on navbar, its the same), reviews/comments, login/register.

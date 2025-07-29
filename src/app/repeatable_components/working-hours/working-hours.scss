@@ -4,7 +4,6 @@
 }
 
 .working-hours-img{
-  background-color: #2e2d2d;
   padding: 4vh 6vw 4vh 6vw;
 }
 
@@ -14,5 +13,15 @@
 
 .working-hours-text{
   padding: 2vh 3vw 0 3vw;
+  color: white;
+}
+
+.lightitalic-text a{
+  color: #b8a269;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lightitalic-text a:hover{
   color: white;
 }

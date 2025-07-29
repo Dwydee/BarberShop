@@ -1,0 +1,61 @@
+.piskaromi, .piskaromi img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.grayz{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.ochkoromi{
+    position: absolute;
+    top: 40vh;
+    left: 24vw;
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    z-index: 100;
+}
+
+.ochkoromi h1{
+    font-size: 4rem;
+    padding: 10px;
+}
+
+.ochkoromi p{
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 100%;
+}
+
+.ochkoromi button{
+    background-color: #b8a269;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.ochkoromi button:hover{
+    background-color: white;
+    color: #b8a269;
+}
+
+.barber_head{
+    font-size:1.3rem;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 3px;
+}
+
+.working_hours{
+    width: 70%;
+    margin-left: 23vw;
+}
