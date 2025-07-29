@@ -69,3 +69,47 @@
   min-width: 36.5vw;
   min-height: 59vh;
 }
+
+
+
+
+.fourth-section{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourth-section-photo{
+  background-image: url(/assets/imgs/handsome-man-cutting-beard-barber-4.jpg);
+  background-position: 40%;
+  background-size: cover;
+  min-width: 30vw;
+  min-height: 50vh;
+}
+
+.fourth-section-services{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+}
+
+.services{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 25vh 25vh;
+  grid-template-columns: 30vh 30vh;
+  gap: 1.2vw;
+}
+
+.fourth-img-container{
+  background-color: #b8a269;
+  text-align: center;
+  padding: 25%;
+}
+
+.fourth-img-container img{
+  width: 4vw;
+}
+

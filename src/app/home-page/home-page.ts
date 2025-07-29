@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { WorkingHours } from "../repeatable_components/working-hours/working-hours";
-import { Carousel } from "../repeatable_components/carousel/carousel";
+import { OurPricing } from "../repeatable_components/our-pricing/our-pricing";
 
 @Component({
   selector: 'app-home-page',
-  imports: [WorkingHours, Carousel],
+  imports: [WorkingHours, OurPricing],
   templateUrl: './home-page.html',
   styleUrl: './home-page.scss'
 })
