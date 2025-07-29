@@ -1,5 +1,5 @@
 .first-section{
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/Homepagebarber.jpg);;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/Homepagebarber.jpg);
   background-position: 50%;
   min-height: 100vh;
   text-align: right;
@@ -70,9 +70,6 @@
   min-height: 59vh;
 }
 
-
-
-
 .fourth-section{
   color: white;
   display: flex;
@@ -112,4 +109,32 @@
 .fourth-img-container img{
   width: 4vw;
 }
+
+.fifth-section{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/human-face-expressions-emotions-headshot-young-model-with-thick-beard-posing-with-angry-unfriendly-look3-min.jpg);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 90vw;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #fff;
+}
+
+.sale{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.2;
+  padding: 0 12vw 0 0;
+}
+
+.sale-bookbtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0 0 7vw;
+}
+
 

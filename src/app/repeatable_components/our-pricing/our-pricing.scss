@@ -1,16 +1,37 @@
 
 i{
   color: #7e7e7e;
+  padding: 0 0 3vh 0;
 }
 
 section{
   color: white;
   display: flex;
   flex-direction: column;
+  padding: 5vh 8vw;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-sides{
+  padding: 5vh 0;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
 .list-of-services{
   display: flex;
+  flex-direction: column;
+}
+
+.service{
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 2vh 2vw 0 2vw;
 }
