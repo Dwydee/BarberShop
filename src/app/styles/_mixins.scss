@@ -1,0 +1,17 @@
+@mixin spacing(
+  $top: 0,
+  $right: 0,
+  $bottom: 0,
+  $left: 0,
+  $property: padding
+) {
+  @if $property == margin {
+    margin: $top $right $bottom $left;
+  } @else if $property == padding {
+    padding: $top $right $bottom $left;
+  } @else {
+    @warn "Invalid property: #{$property}. Use 'margin' or 'padding'.";
+  }
+}
+
+

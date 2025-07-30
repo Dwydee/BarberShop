@@ -1,3 +1,7 @@
+@import '../styles/mixins.scss';
+@import '../styles/variables.scss';
+
+
 .first-section{
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/Homepagebarber.jpg);
   background-position: 50%;
@@ -62,6 +66,17 @@
   max-width: 35.4vw;
 }
 
+.third-section-text p:nth-child(2){
+  @include spacing($top: $space-0, $bottom: $space-3, $property: 'padding');
+}
+
+.third-section-text p:nth-child(4){
+  @include spacing($top: $space-4, $bottom: $space-0, $property: 'padding');
+}
+.third-section-text p:nth-child(5){
+  @include spacing($top: $space-3, $bottom: $space-3, $property: 'padding');
+}
+
 .third-section-img{
   background-image: url(/assets/imgs/serious-man-while-shaving-him.jpg);
   background-position: 40%;
@@ -77,12 +92,19 @@
   align-items: center;
 }
 
+.fourth-section h1:nth-child(1){
+  @include spacing($top: $space-6, $bottom: $space-3, $property: 'padding');
+}
+.fourth-section p{
+  @include spacing($top: $space-0, $bottom: $space-3, $property: 'padding');
+}
+
 .fourth-section-photo{
   background-image: url(/assets/imgs/handsome-man-cutting-beard-barber-4.jpg);
   background-position: 40%;
   background-size: cover;
   min-width: 30vw;
-  min-height: 50vh;
+  min-height: 52vh;
 }
 
 .fourth-section-services{
