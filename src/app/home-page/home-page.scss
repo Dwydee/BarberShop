@@ -10,7 +10,7 @@
   color: white;
 }
 
-.text{
+.first-section-text{
   max-width: 55vw;
   padding: 5vh 5vw;
   display: flex;
@@ -137,4 +137,15 @@
   padding: 0 0 0 7vw;
 }
 
+.sale-bookbtn h1{
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: 0 0 2vh 0;
+}
+
+.sale-bookbtn i{
+  cursor: pointer;
+  width: 13vh;
+  padding: 0 0 2vh 0;
+}
 

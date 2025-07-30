@@ -49,25 +49,25 @@
   font-family: 'NotoSans-lightitalic', sans-serif;
 }
 
-.h1{
+.main-title{
   font-family: 'NotoSans-bold', sans-serif;
   font-size: 7em;
   text-transform: uppercase;
   padding: 2vh 0;
 }
 
-.h2{
+.title{
   font-family: 'NotoSans-bold', sans-serif;
   font-size: 3em;
 }
 
-.h3{
+.title-light{
   font-family: 'NotoSans-light', sans-serif;
   font-size: 2em;
   padding: 1vh 0 2vh 0 ;
 }
 
-.p-text{
+.subtitle{
   font-size: 1.2em;
   padding: 2vh 0 4vh;
   width: 18vw;
@@ -181,12 +181,6 @@
 
 
 
-
-
 body{
   background-color: #1a1a1a;
 }
-
-
-// swiper styles
-@import "~swiper/swiper-bundle.min.css";
