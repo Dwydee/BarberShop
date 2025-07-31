@@ -1,0 +1,116 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+
+main{
+  @include spacing($top: $space-6, $bottom: $space-10, $property: 'padding');
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.container-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container-title h1:nth-child(1){
+  @include spacing($top: $space-0, $bottom: $space-1, $property: 'padding');
+}
+
+.container-title p:nth-child(2){
+  @include spacing($top: $space-0, $bottom: $space-5, $property: 'padding');
+}
+
+swiper-container {
+  width: 77%;
+  height: auto;
+  margin: auto;
+}
+
+swiper-container::part(button-next),
+swiper-container::part(button-prev) {
+  color: gray;
+  background-color: lightgrey;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 1vh;
+}
+
+swiper-container::part(button-next):hover,
+swiper-container::part(button-prev):hover {
+  color: black;
+  background-color: #b8a269;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide1-photo {
+  background-image: url(/assets/imgs/stylish-man-sitting-barbershop_1.jpg);
+  background-position: -90%;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.slide2-photo {
+  background-image: url(/assets/imgs/woman-combing-stylish-man_23-214.jpg);
+  background-position: -90%;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.slide3-photo {
+  background-image: url(/assets/imgs/stylish-man-sitting-barbershop_11.jpg);
+  background-position: -90%;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.slide4-photo {
+  background-image: url(/assets/imgs/front-view-plus-size-man-working.jpg);
+  background-position: -70% 0;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.slide5-photo {
+  background-image: url(/assets/imgs/man-getting-his-hair-washed-barb.jpg);
+  background-position: -90%;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.slide6-photo {
+  background-image: url(/assets/imgs/side-view-man-getting-haircut_23.jpg);
+  background-position: -90%;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.slide-text {
+  background-color: #b8a269;
+  padding: 1rem;
+  height: 15vh;
+}
+
+.slide-text h1{
+  @include spacing($top: $space-0, $bottom: $space-1, $property: 'padding');
+}
+
+

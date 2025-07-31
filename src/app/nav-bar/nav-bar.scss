@@ -1,22 +1,63 @@
+$menuBreakpoint:400px;
+$menuHeight:50px;
+
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: black;
-  padding: 20px;
+  padding: 1.2vw;
 }
 
 .logo a img{
   max-width: 8vw;
 }
 
+.burger {
+  cursor: pointer;
+  display: none;
+  border-left: 1px solid white;
+  padding: 0px 10px;
+
+  i{
+    color: #999;
+    line-height: $menuHeight;
+  }
+
+  @media (max-width: 991px){
+    display: block;
+  }
+
+  .material-icons {
+    color: white;
+    font-size: 32px;
+  }
+}
+
 .navigation{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-width: 17vw;
+  min-width: 18vw;
   color: white;
-  padding: 1vh;
+
+  @media (max-width: 991px){
+    display: none;
+
+    &.is-open {
+      display: block;
+      position: absolute;
+      top: 8%;
+      background-color: gray;
+      width: 100%;
+
+      .navigation-item {
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+
+
 }
 
 .navigation a{
@@ -27,4 +68,60 @@ nav{
   color: #b8a269;
   text-decoration: underline 2px;
   text-underline-offset: 5px;
+}
+
+
+@media (min-width: 1400px){
+
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+@media (max-width: 576px){
+
+}
+
+@media (max-width: 480px){
+
+}
+
+
+@media (min-width: 1400px){
+  .navigation{
+    width: 35vw;
+    font-size: xx-large;
+    padding-left: 5vw;
+  }
+}
+
+@media (min-width: 1200px){
+  .navigation{
+    width: 80vw;
+    font-size: large;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .navigation{
+    width: 30vw;
+    margin-left: 5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
 }

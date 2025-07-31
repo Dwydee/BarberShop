@@ -19,6 +19,10 @@
   color: white;
 }
 
+.working-hours-text p:nth-child(2){
+  @include spacing($bottom: $space-2, $property: 'padding');
+}
+
 .lightitalic-text a{
   color: #b8a269;
   text-decoration: underline;
