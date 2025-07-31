@@ -8,7 +8,6 @@
 @import 'app/styles/variables.scss';
 @import 'app/styles/utilities.scss';
 
-
 //  Colors
 
 .white{
@@ -18,6 +17,7 @@
 .beige{
   color: #b8a269;
 }
+
 
 // Fonts
 
@@ -64,7 +64,6 @@
   font-family: 'NotoSans-bold', sans-serif;
   font-size: 7em;
   text-transform: uppercase;
-  padding: 2vh 0;
 }
 
 .title{
@@ -75,13 +74,11 @@
 .title-light{
   font-family: 'NotoSans-light', sans-serif;
   font-size: 2em;
-  padding: 1vh 0 2vh 0 ;
 }
 
 .subtitle{
+  font-family: 'NotoSans-light', sans-serif;
   font-size: 1.2em;
-  padding: 2vh 0 4vh;
-  width: 18vw;
 }
 
 .phone-number{
@@ -104,7 +101,6 @@
   cursor: pointer;
   background-color: #b8a269;
   color: white;
-  max-width: 50vw;
   padding: 10px 30px;
   font-size: 16px;
   font-weight: 600;
@@ -169,4 +165,14 @@
 
 body{
   background-color: #1a1a1a;
+}
+
+
+@media (min-width: 1400px){
+  .bookbtn{
+    max-width: 30vw;
+    padding: 15px 40px;
+    font-size: xx-large;
+  }
+
 }
