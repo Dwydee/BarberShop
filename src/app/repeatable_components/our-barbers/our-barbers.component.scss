@@ -1,0 +1,25 @@
+.barber-list{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.barber-card{
+    background-color: white;
+    width: 25vw;
+    height: 60vh;
+    padding: 2em;
+}
+
+.barber-card img{
+    width: 100%;
+}
+
+.barber-card h1, h4{
+padding-top: 0.5em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}

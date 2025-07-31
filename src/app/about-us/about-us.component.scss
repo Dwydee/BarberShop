@@ -37,6 +37,7 @@
 .ochkoromi button{
     background-color: #b8a269;
     color: #fff;
+    width: 15vw;
     border: none;
     padding: 12px 24px;
     cursor: pointer;
@@ -58,4 +59,62 @@
 .working_hours{
     width: 70%;
     margin-left: 23vw;
+}
+
+.carusel_head{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.carusel_section{
+    margin-left: 25vw;
+    width: 50%;
+    height: 50vh;
+    color: white;
+    position: relative;
+    text-align: left;
+}
+
+
+swiper-container::part(button-next),
+swiper-container::part(button-prev) {
+  background: #b8a269;
+  opacity: 0.9;
+  color: rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; 
+  padding: 10px;
+}
+
+.barbers_section{
+background-color: #333333;
+width: 100%;
+height: auto;  
+}
+
+.pro_barbers{
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+.barbers-fuckers{
+    padding: 2em;
+}
+
+.feedback{
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.feedback a{
+    color: white;
+    text-decoration: underline;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding: 2em;
 }
