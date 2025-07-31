@@ -9,7 +9,7 @@ register();
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
+    CommonModule    
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
