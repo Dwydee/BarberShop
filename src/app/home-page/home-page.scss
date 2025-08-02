@@ -1,5 +1,5 @@
-@import '../styles/mixins.scss';
-@import '../styles/variables.scss';
+@use '../styles/mixins.scss' as *;
+@use '../styles/variables.scss' as *;
 
 .first-section{
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/Homepagebarber.jpg);

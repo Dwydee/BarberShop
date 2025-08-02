@@ -1,12 +1,12 @@
 // swiper styles
-@import 'swiper/css';
-@import 'swiper/css/navigation';
-@import 'swiper/css/pagination';
+@use 'swiper/css' as *;
+@use 'swiper/css/navigation' as *;
+@use 'swiper/css/pagination' as *;
 
 // Global styles
-@import 'app/styles/mixins.scss';
-@import 'app/styles/variables.scss';
-@import 'app/styles/utilities.scss';
+@use 'app/styles/mixins.scss' as *;
+@use 'app/styles/variables.scss' as *;
+@use 'app/styles/utilities.scss' as *;
 
 //  Colors
 
@@ -173,12 +173,48 @@ body{
   background-color: #1a1a1a;
 }
 
+@media (min-width: 1400px){
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+@media (max-width: 576px){
+
+}
+
+@media (max-width: 480px){
+
+}
+
 
 @media (min-width: 1400px){
   .bookbtn{
     max-width: 30vw;
-    padding: 15px 40px;
-    font-size: xx-large;
+    padding: 10px 20px;
+    font-size: 1.3rem;
   }
-
 }
+
+@media (min-width: 1200px) and (max-width: 1399px){
+  .bookbtn{
+    max-width: 30vw;
+    padding: 15px 40px;
+    font-size: x-large;
+  }
+}
+

@@ -13,25 +13,10 @@ nav{
   max-width: 8vw;
 }
 
-.burger {
+a {
   cursor: pointer;
-  display: none;
-  border-left: 1px solid white;
-  padding: 0px 10px;
-
-  i{
-    color: #999;
-    line-height: $menuHeight;
-  }
-
-  @media (max-width: 991px){
-    display: block;
-  }
-
-  .material-icons {
-    color: white;
-    font-size: 32px;
-  }
+  text-decoration: none;
+  color: white;
 }
 
 .navigation{
@@ -47,21 +32,19 @@ nav{
     &.is-open {
       display: block;
       position: absolute;
-      top: 8%;
-      background-color: gray;
-      width: 100%;
+      top: 0%;
+      right: 50%;
+      height: 100vh;
+      background-color: rgb(0, 0, 0);
+      width: 50%;
+      padding: 5%;
+      text-align: center;
 
       .navigation-item {
-        border-bottom: 1px solid white;
+        padding: 5% 0 ;
       }
     }
   }
-
-
-}
-
-.navigation a{
-  cursor: pointer;
 }
 
 .navigation a:hover{
@@ -70,52 +53,82 @@ nav{
   text-underline-offset: 5px;
 }
 
+.burger {
+  cursor: pointer;
+  display: none;
 
-@media (min-width: 1400px){
+  i{
+    color: #ffffff;
+    line-height: $menuHeight;
+  }
 
+  @media (max-width: 991px){
+    display: block;
+  }
+
+  .material-icons {
+    color: white;
+    font-size: 32px;
+  }
 }
 
-@media (min-width: 1200px){
-
+.responsive-btn{
+  display: none;
+  font-size: small;
+  margin-top: 10px;
+  padding: 10px 10px;
 }
 
-@media (min-width: 992px) and (max-width: 1199px){
-
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-@media (min-width: 768px) and (max-width: 991px){
-
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-@media (min-width: 576px) and (max-width: 767px){
-
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
-@media (max-width: 576px){
+.dropdown-content a:hover {background-color: #b8a269; color: white;}
 
-}
+.dropdown:hover .dropdown-content {display: block;}
 
-@media (max-width: 480px){
 
-}
 
 
 @media (min-width: 1400px){
   .navigation{
     width: 35vw;
-    font-size: xx-large;
+    font-size: large;
     padding-left: 5vw;
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) and (max-width: 1399px){
+
   .navigation{
     width: 80vw;
-    font-size: large;
+    font-size: xx-large;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
+  .logo a img{
+    max-width: 15vw;
+  }
+
+
   .navigation{
     width: 30vw;
     margin-left: 5vw;
@@ -123,5 +136,118 @@ nav{
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+  .logo a img{
+    max-width: 20vw;
+  }
 
+  nav .bookbtn:nth-child(even){
+    display: none;
+  }
+
+  nav .bookbtn:nth-child(odd){
+    display: block;
+  }
+
+  .responsive-btn{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+  }
+  .dropdown a:nth-child(1){
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    position: relative;
+    min-width: 50%;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+  .logo a img{
+    max-width: 25vw;
+  }
+
+  nav .bookbtn:nth-child(even){
+    display: none;
+  }
+
+  nav .bookbtn:nth-child(odd){
+    display: block;
+  }
+
+  .responsive-btn{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .dropdown a:nth-child(1){
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    position: relative;
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 576px){
+  .logo a img{
+    max-width: 25vw;
+  }
+
+  nav .bookbtn:nth-child(even){
+    display: none;
+  }
+
+  nav .bookbtn:nth-child(odd){
+    display: block;
+  }
+
+  .responsive-btn{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .dropdown a:nth-child(1){
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    position: relative;
+    min-width: 50%;
+  }
+
+}
+
+@media (max-width: 480px){
+  .logo a img{
+    max-width: 30vw;
+  }
+
+  nav .bookbtn:nth-child(even){
+    display: none;
+  }
+
+  nav .bookbtn:nth-child(odd){
+    display: block;
+  }
+
+  .responsive-btn{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .dropdown a:nth-child(1){
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    position: relative;
+    min-width: 50%;
+  }
 }
