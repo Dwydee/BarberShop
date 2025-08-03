@@ -6,9 +6,9 @@ import { OurBarbersComponent } from './repeatable_components/our-barbers/our-bar
 
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomePage },
-  { path: 'about', component: AboutUsComponent },
+  { path: 'aboutus', component: AboutUsComponent },
   { path: 'our-barbers', component: OurBarbersComponent }
 ];
 

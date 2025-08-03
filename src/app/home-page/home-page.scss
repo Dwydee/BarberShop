@@ -1,6 +1,5 @@
-@import '../styles/mixins.scss';
-@import '../styles/variables.scss';
-
+@use '../styles/mixins.scss' as *;
+@use '../styles/variables.scss' as *;
 
 .first-section{
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/Homepagebarber.jpg);
@@ -22,6 +21,9 @@
   align-items: end;
 }
 
+.first-section-text p:nth-child(2){
+  @include spacing($top: $space-0, $bottom: $space-3, $property: 'padding');
+}
 
 .second-section{
   padding: 10vh 12vw 5vh 12vw;
@@ -83,6 +85,46 @@
   background-size: cover;
   min-width: 36.5vw;
   min-height: 59vh;
+}
+
+.first-swiper-slide1{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/medium-shot-man-getting-haircut2-min.jpg);
+  background-position: 40%;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 70vh;
+}
+
+.first-swiper-slide2{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/man-getting-his-hair-trimmed-with-trimmer4-min.jpg);
+  background-position: 40%;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 70vh;
+}
+
+.first-swiper-slide3{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/woman-cutting-hair-man-salon2-min.jpg);
+  background-position: 40%;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 70vh;
+}
+
+swiper-container::part(button-next),
+swiper-container::part(button-prev) {
+  color: #b8a269;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+swiper-container::part(bullet) {
+  background-color: gray;
+}
+
+swiper-container::part(bullet-active) {
+  background-color: #b8a269;
 }
 
 .fourth-section{

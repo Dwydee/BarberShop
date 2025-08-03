@@ -1,3 +1,5 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
 
 i{
   color: #7e7e7e;
@@ -34,4 +36,12 @@ section{
   align-items: center;
   justify-content: space-between;
   padding: 2vh 2vw 0 2vw;
+}
+
+.service div h1{
+  @include spacing($bottom: $space-2, $property: 'padding');
+}
+
+.list-of-services div:nth-child(even){
+  @include spacing($top: $space-2, $property: 'margin');
 }

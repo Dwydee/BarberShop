@@ -1,5 +1,5 @@
-@import '../../styles/mixins';
-@import '../../styles/variables';
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
 
 .working-hours{
   display: flex;
@@ -17,6 +17,10 @@
 .working-hours-text{
   padding: 2vh 3vw 0 3vw;
   color: white;
+}
+
+.working-hours-text p:nth-child(2){
+  @include spacing($bottom: $space-2, $property: 'padding');
 }
 
 .lightitalic-text a{
