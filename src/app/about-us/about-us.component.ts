@@ -14,7 +14,7 @@ register();
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AboutUsComponent {
-   spaceBetween = 10;
+   spaceBetween = 1;
 
    onProgress(event: CustomEvent<[Swiper, number]>) {
     const [swiper, progress] = event.detail;
