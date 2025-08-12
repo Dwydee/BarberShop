@@ -116,5 +116,51 @@ height: auto;
 .title{
     color: white;
     text-align: center;
-    padding: 2em;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.services a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    font-size: medium;
+    display: inline-block;
+}
+
+.services button{
+    background-color: #333333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+.services-board{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-image img{
+    border-radius: 50%;
+    height: 20vh;
+    width: 10vw;
+}
+
+.services-txt{
+    text-align: center;
+    padding: 1em;
+}
+
+.services-txt p{
+    padding-top: 2em;
 }

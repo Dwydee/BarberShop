@@ -1,0 +1,74 @@
+.contact-banner{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+.contimg img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.garyz{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.contact-us{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.contact-us h1 {
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 5px;
+}
+
+.contact-us a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.txt{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.work-hours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.barber-slider{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.size img{
+    object-fit: cover;
+    width: 20vw;
+    height: 40vh;
+    transition: transform 0.2s ease-in-out;
+}
+
+.size :hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+
+.get-img img{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
