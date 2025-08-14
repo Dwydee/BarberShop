@@ -11,7 +11,7 @@ import { Swiper } from 'swiper/types';
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class ContactusComponent {
-spaceBetween = 10;
+spaceBetween = 3;
 
    onProgress(event: CustomEvent<[Swiper, number]>) {
     const [swiper, progress] = event.detail;
@@ -20,5 +20,5 @@ spaceBetween = 10;
 
     onSlideChange() {
     console.log('slide changed');
-  } 
+  }
 }
