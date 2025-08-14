@@ -159,13 +159,13 @@
 .line{
   background-color: #b8a269;
   height: 2px;
-  width: 108px;
+  width: 10vw;
 }
 
 .dark-line{
   background-color: #7e7e7e;
   height: 1px;
-  width: 713px;
+  width: 37vw;
 }
 
 
@@ -186,7 +186,9 @@ body{
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-
+  .main-title{
+    font-size: 5em;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px){
