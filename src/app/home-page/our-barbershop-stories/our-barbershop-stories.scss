@@ -113,4 +113,32 @@ swiper-container::part(button-prev):hover {
   @include spacing($top: $space-0, $bottom: $space-1, $property: 'padding');
 }
 
+@media (min-width: 1400px){
+  .slide-text {
+  background-color: #b8a269;
+  padding: 1rem;
+  height: 25vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .slide-text {
+    padding: 0.5rem;
+    height: 20vh;
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+  .slide-text{
+    padding: 0.5rem;
+    height: 18vh;
+    font-size: 0.9rem;
+  }
+
+  swiper-container{
+    width: 92%;
+  }
+}
 

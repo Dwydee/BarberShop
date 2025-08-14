@@ -2,9 +2,8 @@
 @use '../styles/variables.scss' as *;
 
 .first-section{
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/Homepagebarber.jpg);
-  background-position: 50%;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
   text-align: right;
   display: flex;
   flex-direction: column;
@@ -13,12 +12,22 @@
   color: white;
 }
 
+.first-section-img{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .first-section-text{
   max-width: 55vw;
   padding: 5vh 5vw;
   display: flex;
   flex-direction: column;
   align-items: end;
+  z-index: 1;
 }
 
 .first-section-text p:nth-child(2){
@@ -65,7 +74,7 @@
 }
 
 .third-section-text{
-  max-width: 35.4vw;
+  width: 35.4vw;
 }
 
 .third-section-text p:nth-child(2){
@@ -145,8 +154,8 @@ swiper-container::part(bullet-active) {
   background-image: url(/assets/imgs/handsome-man-cutting-beard-barber-4.jpg);
   background-position: 40%;
   background-size: cover;
-  min-width: 30vw;
-  min-height: 52vh;
+  width: 30vw;
+  height: 52vh;
 }
 
 .fourth-section-services{
@@ -215,6 +224,9 @@ swiper-container::part(bullet-active) {
 
 
 @media (min-width: 1400px){
+  .first-section{
+    background-repeat: no-repeat;
+  }
 
 }
 
@@ -223,10 +235,56 @@ swiper-container::part(bullet-active) {
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
+  .fourth-section-services{
+    flex-direction: column;
+  }
 
+  .fourth-section-photo{
+    width: 51.8vw;
+    margin-bottom: 1.2vh;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+ .third-section{
+  flex-direction: column;
+ }
+
+ .third-section-text{
+    width: 80vw;
+ }
+ .third-section-img{
+    width: 80vw;
+    margin-top: 5vh;
+ }
+
+ .fourth-section p:nth-child(2){
+  width: 80vw;
+  text-align: center;
+ }
+
+ .fourth-section-services{
+    flex-direction: column;
+  }
+
+  .fourth-section-photo{
+    width: 80vw;
+    margin-bottom: 1.2vh;
+  }
+
+  .fourth-img-container img{
+    width: 8vw;
+  }
+
+  .services{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 25vh 25vh;
+    grid-template-columns: 35vh 35vh;
+    gap: 1.2vw;
+  }
+
+
 
 }
 

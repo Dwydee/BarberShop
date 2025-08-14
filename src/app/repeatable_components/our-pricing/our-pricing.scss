@@ -38,10 +38,22 @@ section{
   padding: 2vh 2vw 0 2vw;
 }
 
+.service div{
+  height: 10vh;
+  width: 28vw;
+}
+
 .service div h1{
   @include spacing($bottom: $space-2, $property: 'padding');
 }
 
 .list-of-services div:nth-child(even){
   @include spacing($top: $space-2, $property: 'margin');
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .service div{
+    height: 12vh;
+    width: 28vw;
+  }
 }

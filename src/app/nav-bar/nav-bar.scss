@@ -31,7 +31,7 @@ a {
 
     &.is-open {
       display: block;
-      position: absolute;
+      position: fixed;
       top: 0%;
       right: 50%;
       height: 100vh;
@@ -39,6 +39,7 @@ a {
       width: 50%;
       padding: 5%;
       text-align: center;
+      z-index: 2;
 
       .navigation-item {
         padding: 5% 0 ;
