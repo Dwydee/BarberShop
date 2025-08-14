@@ -22,18 +22,13 @@
     </div>
 
     <div class="barber-slider">
-        <swiper-container
-     loop="true"
-      navigation="true"
-      speed="1400"
-      autoplay="false"
-      slides-per-view="1"
-      centered-slides="true"
-      [breakpoints]="{
-        '100': {
-          slidesPerView: 3,
-        },
-      }"
+        <swiper-container class="mySwiper"
+          [loop]="true"
+          [slidesPerView]="3"
+          [slidesPerGroup]="3"
+          [spaceBetween]="3"
+          [navigation]="true"
+          [speed]="1400"
     >
       <swiper-slide class="size">
         <img src="assets\imgs\woman-combing-stylish-man_23-214 (1).jpg" alt="">
