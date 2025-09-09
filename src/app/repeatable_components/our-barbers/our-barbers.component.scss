@@ -1,5 +1,8 @@
-.barber-list{
+.our-barbers{
+  padding: 2em 0 4em 0;
+}
 
+.barber-list{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -22,4 +25,10 @@
 padding-top: 0.5em;
 text-transform: uppercase;
 letter-spacing: 2px;
+}
+
+.pro_barbers{
+    color: white;
+    text-align: center;
+    padding: 2em;
 }
