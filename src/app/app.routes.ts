@@ -4,6 +4,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { HomePage } from './home-page/home-page';
 import { OurBarbersComponent } from './repeatable_components/our-barbers/our-barbers.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { OurBarbers } from './our-barbers/our-barbers';
 
 
 export const routes: Routes = [
@@ -11,7 +12,8 @@ export const routes: Routes = [
   { path: 'home', component: HomePage },
   { path: 'aboutus', component: AboutUsComponent },
   { path: 'our-barbers', component: OurBarbersComponent },
-  { path: 'contactus', component: ContactusComponent }
+  { path: 'contactus', component: ContactusComponent },
+  { path: 'barbers', component: OurBarbers }
 ];
 
 @NgModule({
