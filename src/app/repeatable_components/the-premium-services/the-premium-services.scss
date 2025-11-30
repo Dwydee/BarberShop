@@ -1,0 +1,84 @@
+.main-section{
+  width: 100%;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-info{
+  background-color: white;
+  width: 70%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+}
+
+.info-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.service-buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.service-btn{
+  font: to-upper-case;
+  font-size: 18px;
+  background-color: #606060;
+  border: 0;
+  padding: 12px 20px 12px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.service-btn:hover{
+  background-color: #404040;
+}
+
+.service-btn.active {
+  background-color: #b8a269;
+  color: black;
+}
+
+.img1{
+  background-image: url(/assets/imgs/man-cuts-his-beard-barbershop_111.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 225px;
+  height: 225px;
+  border-radius: 120px;
+}
+.img2{
+  background-image: url(/assets/imgs/handsome-man-cutting-beard-barber-4.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 225px;
+  height: 225px;
+  border-radius: 120px;
+}
+.img3{
+  background-image: url(/assets/imgs/portrait-man-barbershop-with-cla.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 225px;
+  height: 225px;
+  border-radius: 120px;
+}
+.img4{
+  background-image: url(/assets/imgs/stylish-man-sitting-barbershop_11.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 225px;
+  height: 225px;
+  border-radius: 120px;
+}
