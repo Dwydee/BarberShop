@@ -1,0 +1,32 @@
+<section class="main-section">
+  <h1 class="title">We provide premium class services</h1>
+  <br>
+  <div class="service-buttons">
+    <button class="service-btn" (click)="setContext(1)" [class.active]="context === 1">BEARD AND MUSTACHE TRIM</button>
+    <button class="service-btn" (click)="setContext(2)" [class.active]="context === 2">ROYAL SHAVE</button>
+    <button class="service-btn" (click)="setContext(3)" [class.active]="context === 3">HAIR COLORING</button>
+    <button class="service-btn" (click)="setContext(4)" [class.active]="context === 4">CUTS AND FADES</button>
+  </div>
+  <div class="service-info">
+    <div *ngIf="context === 1" class="info-block">
+      <div class="img1"></div><br>
+      <h2 class="info-title">BEARD AND MUSTACHE TRIM</h2><br>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente repellat molestiae quasi ipsa eveniet libero?</p>
+    </div>
+    <div *ngIf="context === 2" class="info-block">
+      <div class="img2"></div><br>
+      <h2 class="info-title">ROYAL SHAVE</h2><br>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, qui minus. Obcaecati corporis ad earum dolor, deleniti doloribus expedita exercitationem. Hic atque saepe dolorum error.</p>
+    </div>
+    <div *ngIf="context === 3" class="info-block">
+      <div class="img3"></div><br>
+      <h2 class="info-title">HAIR COLORING</h2><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste officia hic delectus eos quisquam beatae cumque! Sed accusamus, numquam autem ex suscipit illo omnis, laborum at molestias eveniet consectetur? Quidem.</p>
+    </div>
+    <div *ngIf="context === 4" class="info-block">
+      <div class="img4"></div><br>
+      <h2 class="info-title">CUTS AND FADES</h2><br>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, iure vel dicta aperiam vitae magni vero debitis velit assumenda ad dignissimos aspernatur!</p>
+    </div>
+  </div>
+</section>
