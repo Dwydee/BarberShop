@@ -106,18 +106,43 @@ swiper-container::part(button-prev):hover {
 .slide-text {
   background-color: #b8a269;
   padding: 1rem;
-  height: 15vh;
+  height: 20vh;
 }
 
 .slide-text h1{
   @include spacing($top: $space-0, $bottom: $space-1, $property: 'padding');
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1921px){
   .slide-text {
-  background-color: #b8a269;
-  padding: 1rem;
-  height: 25vh;
+    height: 18vh;
+  }
+
+  .slide-text h1{
+    font-size: 2.5em;
+  }
+
+  .slide-text p{
+    font-size: 1.6rem;
+  }
+
+  .container-title p{
+    font-size: 2.5rem;
+  }
+
+  swiper-container::part(button-next),
+  swiper-container::part(button-prev){
+    width: 40px;
+    height: 40px;
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1440px){
+  .slide-text {
+    padding: 0.5rem;
+    height: 20vh;
+    font-size: 0.9rem;
   }
 }
 
@@ -133,7 +158,7 @@ swiper-container::part(button-prev):hover {
 @media (min-width: 768px) and (max-width: 991px){
   .slide-text{
     padding: 0.5rem;
-    height: 18vh;
+    height: 20vh;
     font-size: 0.9rem;
   }
 
@@ -142,3 +167,43 @@ swiper-container::part(button-prev):hover {
   }
 }
 
+@media (min-width: 576px) and (max-width: 767px){
+  .slide-text{
+    padding: 0.5rem;
+    height: 20vh;
+    font-size: 0.9rem;
+  }
+
+  swiper-container{
+    width: 92%;
+  }
+}
+
+@media (max-width: 576px){
+  .slide-text{
+    padding: 0.5rem;
+    height: 20vh;
+    font-size: 0.9rem;
+  }
+
+  swiper-container{
+    width: 92%;
+  }
+}
+
+@media (max-width: 480px){
+  .slide-text{
+    padding: 0.5rem;
+    height: 30vh;
+    font-size: 0.9rem;
+  }
+
+  swiper-container{
+    width: 92%;
+  }
+
+  .container-title p,
+  .container-title h1{
+    text-align: center;
+  }
+}

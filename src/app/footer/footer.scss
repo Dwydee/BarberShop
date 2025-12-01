@@ -85,3 +85,55 @@ footer{
   margin-bottom: 2vh;
   font-size: large;
 }
+@media (min-width: 1921px){}
+@media (min-width: 1200px) and (max-width: 1440px){}
+@media (min-width: 992px) and (max-width: 1199px){}
+@media (min-width: 768px) and (max-width: 991px){}
+@media (min-width: 576px) and (max-width: 767px){
+  footer{
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+  .logo{
+    width: 15vw;
+    height: auto;
+  }
+
+  .first p, .second p, .third p{
+    width: 40vw;
+    gap: 2vh;
+  }
+}
+@media (max-width: 576px){
+  footer{
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+  .logo{
+    width: 15vw;
+    height: auto;
+  }
+
+  .first p, .second p, .third p{
+    width: 40vw;
+    gap: 2vh;
+  }
+}
+@media (max-width: 480px){
+  footer{
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+  .logo{
+    width: 15vw;
+    height: auto;
+  }
+
+  .first p, .second p, .third p{
+    width: 40vw;
+    gap: 2vh;
+  }
+}

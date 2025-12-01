@@ -51,9 +51,115 @@ section{
   @include spacing($top: $space-2, $property: 'margin');
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 1921px){
   .service div{
-    height: 12vh;
+    height: 6vh;
+    width: 24vw;
+  }
+
+  .service div h1{
+    font-size: 3em;
+  }
+
+  .service div i{
+    font-size: 1.5em;
+  }
+
+  .list-of-services{
+    gap: 2vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .service div{
+    height: 2vh;
+    width: 24vw;
+  }
+
+  .service div h1{
+    font-size: 1.2em;
+    padding: 0;
+  }
+
+  .service div i{
+    font-size: 0.8em;
+  }
+
+  .list-of-services{
+    gap: 3vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .service{
+    height: 16vh;
+  }
+
+  .service div{
+    height: 10vh;
     width: 28vw;
+  }
+
+  .service div h1{
+    font-size: 1.3em;
+  }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+  .two-sides{
+    flex-direction: column;
+  }
+
+  .service{
+    height: 16vh;
+  }
+
+  .service div{
+    height: 4vh;
+    width: 60vw;
+  }
+
+  .service div h1{
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 576px){
+  .two-sides{
+    flex-direction: column;
+  }
+
+  .service{
+    height: 16vh;
+  }
+
+  .service div{
+    height: 4vh;
+    width: 60vw;
+  }
+
+  .service div h1{
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 480px){
+  .two-sides{
+    flex-direction: column;
+  }
+
+  .service{
+    height: 16vh;
+  }
+
+  .service div{
+    height: 14vh;
+    width: 50vw;
+  }
+
+  .service div h1{
+    font-size: 1.3em;
   }
 }

@@ -33,10 +33,47 @@
   color: white;
 }
 
-
 .working-hours-text p:nth-child(4){
   @include spacing($top: $space-4, $property: 'padding');
 }
+
 .working-hours-text p:nth-child(5){
   @include spacing($bottom: $space-4, $property: 'padding');
+}
+
+
+@media (min-width: 1921px){
+  .phone-number{
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+  .working-hours{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px){
+  .working-hours{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px){
+  .working-hours{
+    flex-direction: column;
+  }
 }

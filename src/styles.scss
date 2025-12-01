@@ -173,50 +173,76 @@ body{
   background-color: #1a1a1a;
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1921px){
+  .title{
+    font-size: 6em;
+  }
 
+  .title-light{
+    font-size: 4em;
+  }
+
+  .subtitle{
+    font-size: 2em;
+  }
+
+  .bookbtn{
+    max-width: 30vw;
+    padding: 13px 26px;
+    font-size: 1.3rem;
+  }
 }
 
-@media (min-width: 1200px) and (max-width: 1399px){
+@media (min-width: 1200px) and (max-width: 1440px){
+  .bookbtn{
+    width: 15vw;
+    padding: 10px 20px;
+    font-size: medium;
+  }
 
-}
-
-@media (min-width: 992px) and (max-width: 1199px){
-
-}
-
-@media (min-width: 768px) and (max-width: 991px){
   .main-title{
     font-size: 5em;
   }
 }
 
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 992px) and (max-width: 1199px){
+  .main-title{
+    font-size: 4em;
+  }
+}
 
+@media (min-width: 768px) and (max-width: 991px){
+  .main-title{
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+  .main-title{
+    font-size: 4em;
+  }
 }
 
 @media (max-width: 576px){
+  .main-title{
+    font-size: 3em;
+  }
 
+  .title{
+    font-size: 2em;
+  }
+
+  .title-light{
+    font-size: 2em;
+  }
 }
 
 @media (max-width: 480px){
+  .main-title{
+    font-size: 2.5em;
+  }
 
-}
-
-
-@media (min-width: 1400px){
-  .bookbtn{
-    max-width: 30vw;
-    padding: 10px 20px;
-    font-size: 1.3rem;
+  .title-light{
+    font-size: 1em;
   }
 }
-
-@media (min-width: 1200px) and (max-width: 1399px){
-  .bookbtn{
-    max-width: 30vw;
-    padding: 15px 40px;
-    font-size: x-large;
-  }
-}
-
