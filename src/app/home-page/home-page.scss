@@ -2,13 +2,15 @@
 @use '../styles/variables.scss' as *;
 
 .first-section{
-  height: 100vh;
+  min-height: 100dvb;
   width: 100%;
-  text-align: right;
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: end;
   justify-content: center;
+  text-align: right;
   color: white;
 }
 
@@ -239,26 +241,26 @@ swiper-container::part(bullet-active) {
   }
 
   .fourth-section-photo{
-    height: 42vh;
+    height: 42dvh;
   }
 
   .services{
     display: grid;
-    grid-template-rows: 20vh 20vh;
-    grid-template-columns: 25vh 25vh;
-    gap: 1.2vw;
+    grid-template-rows: 20dvh 20dvh;
+    grid-template-columns: 25dvh 25dvh;
+    gap: 1.2dvw;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1440px){
   .fourth-section-photo{
-    height: 42vh;
+    height: 42dvh;
   }
 
   .services{
     display: grid;
-    grid-template-rows: 20vh 20vh;
-    grid-template-columns: 25vh 25vh;
+    grid-template-rows: 20dvh 20dvh;
+    grid-template-columns: 25dvh 25dvh;
     gap: 1.2vw;
   }
 
@@ -274,11 +276,16 @@ swiper-container::part(bullet-active) {
 
   .fourth-section-photo{
     width: 54.4vw;
-    margin-bottom: 1.2vh;
+    margin-bottom: 1.2dvh;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+
+  .fifth-section-text{
+    padding: 0;
+  }
+
  .third-section{
   flex-direction: column;
  }
@@ -288,7 +295,7 @@ swiper-container::part(bullet-active) {
  }
  .third-section-img{
     width: 80vw;
-    margin-top: 5vh;
+    margin-top: 5dvh;
  }
 
  .fourth-section p:nth-child(2){
@@ -302,7 +309,7 @@ swiper-container::part(bullet-active) {
 
   .fourth-section-photo{
     width: 84vw;
-    margin-bottom: 1.2vh;
+    margin-bottom: 1.2dvh;
   }
 
   .fourth-img-container img{
@@ -315,8 +322,8 @@ swiper-container::part(bullet-active) {
 
   .services{
     display: grid;
-    grid-template-rows: 25vh 25vh;
-    grid-template-columns: 35vh 35vh;
+    grid-template-rows: 25dvh 25dvh;
+    grid-template-columns: 35dvh 35dvh;
     gap: 1.2vw;
   }
 }
@@ -329,7 +336,7 @@ swiper-container::part(bullet-active) {
 
   .second-section-photos{
     flex-direction: column;
-    gap: 5vh;
+    gap: 5dvh;
   }
 
   .second-section-first-photo,
@@ -339,7 +346,7 @@ swiper-container::part(bullet-active) {
 
   .third-section{
     flex-direction:column-reverse;
-    gap: 5vh;
+    gap: 5dvh;
   }
 
   .third-section-text{
@@ -357,7 +364,7 @@ swiper-container::part(bullet-active) {
 
   .fourth-section-photo{
     width: 84vw;
-    margin-bottom: 1.2vh;
+    margin-bottom: 1.2dvh;
   }
 
   .fourth-section-services{
@@ -376,7 +383,7 @@ swiper-container::part(bullet-active) {
     display: flex;
     flex-direction: column;
     grid-template-rows: 25vw 25vw;
-    grid-template-columns: 10vh 10vh;
+    grid-template-columns: 10dvh 10dvh;
     gap: 2vw;
   }
 }
@@ -389,7 +396,7 @@ swiper-container::part(bullet-active) {
 
   .second-section-photos{
     flex-direction: column;
-    gap: 5vh;
+    gap: 5dvh;
   }
 
   .second-section-first-photo,
@@ -399,7 +406,7 @@ swiper-container::part(bullet-active) {
 
   .third-section{
     flex-direction:column-reverse;
-    gap: 5vh;
+    gap: 5dvh;
   }
 
   .third-section-text{
@@ -417,7 +424,7 @@ swiper-container::part(bullet-active) {
 
   .fourth-section-photo{
     width: 84vw;
-    margin-bottom: 1.2vh;
+    margin-bottom: 1.2dvh;
   }
 
   .fourth-section-services{
@@ -436,7 +443,7 @@ swiper-container::part(bullet-active) {
     display: flex;
     flex-direction: column;
     grid-template-rows: 25vw 25vw;
-    grid-template-columns: 10vh 10vh;
+    grid-template-columns: 10dvh 10dvh;
     gap: 2vw;
   }
 

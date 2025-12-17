@@ -173,6 +173,16 @@ body{
   background-color: #1a1a1a;
 }
 
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
 @media (min-width: 1921px){
   .title{
     font-size: 6em;
