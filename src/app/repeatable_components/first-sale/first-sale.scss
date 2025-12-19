@@ -1,0 +1,62 @@
+main{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/imgs/human-face-expressions-emotions-headshot-young-model-with-thick-beard-posing-with-angry-unfriendly-look3-min.jpg);
+  background-position: 50%;
+  background-size: cover;
+  min-width: 90vw;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #fff;
+}
+
+.sale{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.2;
+  padding: 0 12vw 0 0;
+}
+
+.sale-bookbtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0 0 7vw;
+}
+
+.sale-bookbtn h1{
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: 0 0 2vh 0;
+}
+
+.sale-bookbtn i{
+  cursor: pointer;
+  width: 13vh;
+  padding: 0 0 2vh 0;
+}
+
+@media (max-width: 576px){
+  .sale{
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+  }
+
+  .sale-bookbtn{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .sale-bookbtn h1{
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 480px){
+
+}
+

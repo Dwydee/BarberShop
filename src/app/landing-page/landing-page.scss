@@ -1,0 +1,109 @@
+.first{
+  background-image: url('/assets/imgs/smart-pensive-redhead-hipster-with-full-beard-glasses-dressed-casual-clothes-poses-with-hand-chin-studio-isolated-dark-background5-min.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.first-content{
+  padding: 3%;
+  width: 80%;
+}
+
+.first-content h1{
+  line-height: 100%;
+}
+
+.second{
+  padding: 3% 0;
+}
+
+.second-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-content h1{
+  text-align: center;
+  color: white;
+}
+
+.third{
+  background-color: #333333;
+  padding: 1% 0;
+}
+
+.fourth{
+  background-image: url('/assets/imgs/vintage-frame-salon-tools-wooden-table-2-min1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  height: 87vh;
+  text-align: center;
+  color: white;
+  padding: 2%;
+}
+
+.fourth-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0%;
+  row-gap: 5%;
+  width: 80%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.service-card{
+  margin: auto;
+  width: 95%;
+  height: 27vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #b8a269;
+}
+
+.service-img{
+  background-position: 50% 50%;
+  background-size: contain;
+  width: 75px;
+  height: 75px;
+}
+
+.img1{
+  background-image: url('/assets/imgs/Scissors.png');
+}
+
+.img2{
+  background-image: url('/assets/imgs/Shaving.png');
+}
+
+.img3{
+  background-image: url('/assets/imgs/Beard.png');
+}
+
+.img4{
+  background-image: url('/assets/imgs/Coloring.png');
+}
+
+.img5{
+  background-image: url('/assets/imgs/Removal.png');
+}
+
+.img6{
+  background-image: url('/assets/imgs/Baby.png');
+}
+
+.fifth{
+  padding: 5% 0;
+}

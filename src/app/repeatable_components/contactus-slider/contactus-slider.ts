@@ -1,17 +1,13 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { WorkingHours } from "../repeatable_components/working-hours/working-hours";
-import { ContactusSlider } from '../repeatable_components/contactus-slider/contactus-slider';
-
 
 @Component({
-  selector: 'app-contactus',
-  templateUrl: './contactus.component.html',
-  styleUrls: ['./contactus.component.scss'],
-  imports: [WorkingHours, ContactusSlider],
+  selector: 'mini-contactus-slider',
+  imports: [],
+  templateUrl: './contactus-slider.html',
+  styleUrl: './contactus-slider.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-
-export class ContactusComponent {
+export class ContactusSlider {
   breakpointsConfig = {
   320: {
     loop: true,
