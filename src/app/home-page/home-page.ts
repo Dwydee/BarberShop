@@ -4,6 +4,7 @@ import { OurPricing } from "../repeatable_components/our-pricing/our-pricing";
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { register } from 'swiper/element/bundle';
 import { OurBarbershopStories } from './our-barbershop-stories/our-barbershop-stories';
+import { FirstSale } from '../repeatable_components/first-sale/first-sale';
 
 
 
@@ -14,7 +15,8 @@ register();
   imports: [
     WorkingHours,
     OurPricing,
-    OurBarbershopStories
+    OurBarbershopStories,
+    FirstSale
 ],
   templateUrl: './home-page.html',
   styleUrls: ['./home-page.scss'],
