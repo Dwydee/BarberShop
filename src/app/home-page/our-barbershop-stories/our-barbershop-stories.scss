@@ -111,6 +111,7 @@ swiper-container::part(button-prev):hover {
 
 .slide-text h1{
   @include spacing($top: $space-0, $bottom: $space-1, $property: 'padding');
+  font-size: 1.2em;
 }
 
 @media (min-width: 1921px){

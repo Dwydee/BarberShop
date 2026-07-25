@@ -3,7 +3,7 @@ $menuHeight:50px;
 
 nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   padding: 1.2vw;
@@ -23,8 +23,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-width: 18vw;
+  width: 28vw;
   color: white;
+  padding-left: 5vw;
 
   @media (max-width: 991px){
     display: none;
@@ -39,10 +40,9 @@ a {
       width: 50%;
       padding: 5%;
       text-align: center;
-      z-index: 2;
 
       .navigation-item {
-        padding: 5% 0 ;
+        padding: 5% 0 ; 
       }
     }
   }
@@ -73,7 +73,7 @@ a {
     z-index: 300;
   }
 }
-
+  
 .responsive-btn{
   display: none;
   font-size: small;
